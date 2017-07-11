@@ -1,6 +1,6 @@
 terraform {
   backend "atlas" {
-    address = "https://atlas.hashicorp.com/"
+    address = "https://deploy.rd.elliemae.io"
   }
 }
 

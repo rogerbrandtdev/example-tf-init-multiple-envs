@@ -1,14 +1,14 @@
-#! /bin/bash -ev
+#! /bin/bash -evx
 
-if [[ $# -lt 2 || $1 == "help" ]]
-then
-    echo "./$( basename $0 ) <user> <env>"
-    echo "where <env> is one of"
-    echo "   dev"
-    echo "   prod"
-    echo "   staging"
-    exit 1
-fi
+#if [[ $# -lt 2 || $1 == "help" ]]
+#then
+#    echo "./$( basename $0 ) <user> <env>"
+#    echo "where <env> is one of"
+#    echo "   dev"
+#    echo "   prod"
+#    echo "   staging"
+#    exit 1
+#fi
 
 TF_USER=$1
 TF_ENV=$2
