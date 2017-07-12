@@ -12,7 +12,7 @@ provider "atlas" {
 data "atlas_artifact" "web-server" {
 name = "developer_2/web-server"
 type = "amazon.image"
-version = "2"
+version = "latest"
 }
 
 resource "aws_instance" "web-server" {
